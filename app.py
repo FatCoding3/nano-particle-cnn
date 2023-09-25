@@ -3,11 +3,6 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-from copy import deepcopy
-
-import matplotlib as mpl
-mpl.use("agg")
-
 from matplotlib.backends.backend_agg import RendererAgg
 _lock = RendererAgg.lock
 
