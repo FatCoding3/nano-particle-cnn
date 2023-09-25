@@ -2,10 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from PIL import Image
-
-from keras.models import Model, load_model
 from sklearn.preprocessing import MinMaxScaler,StandardScaler
 import joblib
+from keras.models import Model, load_model
 
 
 # -- Set side bar
