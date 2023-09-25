@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-from matplotlib.backends.backend_agg import RendererAgg
-_lock = RendererAgg.lock
-
 from keras.models import Model, load_model
 from sklearn.preprocessing import MinMaxScaler,StandardScaler
 import joblib
